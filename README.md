@@ -14,5 +14,6 @@ This Horiseon webpage was built to optimize brand awareness while formally actin
 ```md
 ![Image] (./assets/images/Screenshot 2023-05-11 at 8.40.12 PM.png)
 ```
-
+## Conclusion
+The following webpage can be viewed at: https://sefenydiaz.github.io/the-code-refactor/
 
