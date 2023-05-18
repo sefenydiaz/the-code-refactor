@@ -79,7 +79,10 @@ p {
 }
 
 /*changed CSS structure to follow HTML structure*/
-.search-engine-optimization {
+/*consolidated elements using css group selector*/
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -88,7 +91,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+/*.online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -104,12 +107,15 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
     max-height: 200px;
 }
 
+/* -->consolidated img elements using group selector
 .online-reputation-management img {
     max-height: 200px;
 }
@@ -117,12 +123,15 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
-.search-engine-optimization h2 {
+*/
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*consolidated h2 element using group selector
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -131,7 +140,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 /*side bar now comes after main content*/
 .benefits {
@@ -145,11 +154,14 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*consolidated using group selector
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -158,13 +170,16 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-lead h3 {
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* consolidated h3 elements using group selector
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -173,14 +188,17 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-lead img {
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* consolidated using group selector
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -191,7 +209,7 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
 .footer {
     padding: 30px;
