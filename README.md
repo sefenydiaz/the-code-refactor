@@ -11,9 +11,10 @@ This Horiseon webpage was built to optimize brand awareness while formally actin
 - Descriptive Title - A title was missing so the "Horiseon" title was added to the sourcecode
 - SEO Link - The SEO jump link was not functioning properly so the element was edited to work correctly 
 
-```md
-![Image] (./assets/images/Screenshot 2023-05-11 at 8.40.12 PM.png)
-```
+## Screenshot 
+Below is a screenshot of the functioning webpage:
+![webpage screenshot](./assets/images/Horiseon%20webpage%20screenshot.png)
+
 ## Conclusion
 The following webpage can be viewed at: https://sefenydiaz.github.io/the-code-refactor/
 
